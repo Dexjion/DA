@@ -1,0 +1,6 @@
+{
+  "name": "Handmade PA — Phụ Kiện Len Thủ Công",
+  "description": "Cửa hàng phụ kiện đan móc từ len thủ công Handmade PA với quản trị sản phẩm, tự động hóa email bán hàng và thanh toán trực tiếp qua VietQR, MoMo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', 'Nunito', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFF8F6;
+    color: #4A252B;
+  }
+
+  h1, h2, .font-serif-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Pastel Pink & Cream Gingham Pattern synced with Handmade PA Cover Banner */
+.bg-gingham-pink {
+  background-color: #FFF6F7;
+  background-image:
+    linear-gradient(90deg, rgba(247, 178, 194, 0.28) 50%, transparent 50%),
+    linear-gradient(rgba(247, 178, 194, 0.28) 50%, transparent 50%);
+  background-size: 28px 28px;
+}
+
+.bg-gingham-strip {
+  background-color: #FFEFF2;
+  background-image:
+    linear-gradient(90deg, rgba(244, 152, 174, 0.36) 50%, transparent 50%),
+    linear-gradient(rgba(244, 152, 174, 0.36) 50%, transparent 50%);
+  background-size: 20px 20px;
+}
